@@ -1,4 +1,4 @@
-# In this given code 
+# This program determines the day of the week after a given number of days from a specified starting day. It assigns numerical values to days, applies modular arithmetic to handle the week cycle, and outputs the corresponding future day
 
 d = input("Enter the day of the Week, Where you want to start the Month")
 n = int(input("Enter the number of days to find the corresponding day of the week:")) % 7  
