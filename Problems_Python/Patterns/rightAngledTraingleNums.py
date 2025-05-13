@@ -7,7 +7,7 @@ for i in range(n) :
 
 
 
-
+#Single Loop
 # n = int(input())
 # row = ""
 #
