@@ -7,3 +7,10 @@ for i in range(n) :
         print(k , end = " ")
         k -= 1
     print()
+
+#Single Loop
+# n = int(input())
+#
+# for i in range(n):
+#     row = " " * (2 * (n - i - 1))
+#     print(row + "* " * (i + 1))
