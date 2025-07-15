@@ -1,28 +1,17 @@
-n = int(input())
+# Program to read n numbers and print the first prime number entered
 
-while n > 0 :
-    m = int(input())
+n = int(input("Enter the number of inputs (n): "))                  # Read the number of inputs to process
 
-    for i in range( 2 , m ):
-        count = 0
-        if m % i == 0 :
-            count += 1
-            if count == 0 :
-                print(m)
-                break
+while n > 0:                                                         # Loop until n becomes 0
+    m = int(input("Enter a number: "))                              # Read the next number
+    count = 0                                                        # Counter for factors of m
 
-    n -= 1
+    for i in range(1, m + 1):                                        # Loop to count factors of m
+        if m % i == 0:
+            count += 1                                               # Increment factor count
 
+    if count == 2:                                                   # Check if m is a prime number
+        print("First prime number entered:", m)                      # Print the prime number
+        break                                                        # Exit the loop when first prime is found
 
-
-
-
-
-
-
-
-
-
-
-
-
+    n -= 1                                                           # Decrement the count of inputs left
